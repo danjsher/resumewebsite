@@ -3,7 +3,7 @@ var main = function() {
         
         $('.menu').animate({ top: '0px'}, 200);
         
-        $('body').animate({top: '285px'}, 200);
+        $('body').animate({top: '75px'}, 200);
     });
 
 };

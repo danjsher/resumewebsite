@@ -15,9 +15,9 @@ html, body {
 }
 
 .menu {
-	background-color: #e6e6e6;
-	top: -285px;
-	height: 285px;
+	background: #e6e6e6;
+	top: -75px;
+	height: 75px;
 	width: 100%;
 	position: fixed;
 }
