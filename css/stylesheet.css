@@ -7,11 +7,8 @@ html, body {
 	position: relative;
 }
 
-.heading {
+.menu-icon {
 	padding: .25em 0em .25em 0em;
-	background-color: #000000;
-	height: 100px;
-	width: 100px;
 	text-align: center;
 	color: #e5ffe5;
 }
