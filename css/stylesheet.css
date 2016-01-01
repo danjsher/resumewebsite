@@ -1,3 +1,25 @@
-body {
-	font-family: Impact, serif;
+html, body {
+	font-family: "Montserrat", serif;
+	background-color: #e6e6e6;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	position: relative;
+}
+
+.heading {
+	padding: .25em 0em .25em 0em;
+	background-color: #009973;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	color: #e5ffe5;
+}
+
+.menu {
+	background-color: #000000;
+	left: -285px;
+	height: 100%;
+	width: 285px;
+	position: fixed;
 }
