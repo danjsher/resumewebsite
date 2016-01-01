@@ -18,8 +18,8 @@ html, body {
 
 .menu {
 	background-color: #000000;
-	left: -285px;
-	height: 100%;
-	width: 285px;
+	top: -285px;
+	height: 285px;
+	width: 100%;
 	position: fixed;
 }

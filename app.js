@@ -1,9 +1,9 @@
 var main = function() {
     $('.heading').click(function() {
         
-        $('.menu').animate({ left: '0px'}, 200);
+        $('.menu').animate({ top: '0px'}, 200);
         
-        $('body').animate({left: '285px'}, 200);
+        $('body').animate({top: '285px'}, 200);
     });
 
 };
