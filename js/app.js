@@ -1,3 +1,4 @@
+img = document.getElementById('menu-icon');
 
 var main = function() {
 
@@ -6,7 +7,9 @@ var main = function() {
         $('.menu').animate({ top: '0px'}, 200);
         
         $('body').animate({top: '75px'}, 200);
-    });
+
+        img.className = "rotate90";
+     });
 
 
 
