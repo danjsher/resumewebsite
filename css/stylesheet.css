@@ -1,6 +1,7 @@
 html, body {
 	font-family: "Montserrat", serif;
 	background-color: #009973;
+	color: #4d4d4d;
 	margin:0;
 	padding:0;
 	overflow: hidden;
@@ -22,15 +23,42 @@ html, body {
 	position: fixed;
 }
 
-.arrow-icon{
-	margin-top: -65px;
 
+#arrow-down {
+    margin-top: -65px;
+    transform: rotate(270deg) scale(.30, .30);
+    display: inline;
 }
 
-#menu-icon.rotate90 #arrow {
-	transform: rotate(270deg) scale(.30, .30);
+#arrow-up {
+   margin-top: -65px;
+   transform: rotate(90deg) scale(.30, .30);
+   display: none;
 }
 
-#menu-icon.rotate270 #arrow {
-	transform: rotate(90deg) scale(.30, .30);
+.content-body {
+    text-align: center;
+}
+
+a {
+    font-size: 25px;
+    position: relative;
+    top: 20px; 
+    left: 10px;
+    padding-left: 15px;
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bfbfbf;
+}
+
+.header {
+    text-align: center;
+}
+.name {
+    position: relative;
+    left: 15px;
+    top: -60px;
 }
