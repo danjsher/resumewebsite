@@ -21,3 +21,8 @@ html, body {
 	width: 100%;
 	position: fixed;
 }
+
+.arrow-icon {
+	margin-top: -65px;
+	transform: rotate(270deg) scale(.30, .30);
+}
