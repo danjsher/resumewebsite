@@ -15,9 +15,14 @@ html, body {
 }
 
 .menu {
-	background: #e6e6e6;
+	background-color: #e6e6e6;
 	top: -75px;
 	height: 75px;
 	width: 100%;
 	position: fixed;
+}
+
+.arrow-icon {
+	margin-top: -65px;
+	transform: rotate(270deg) scale(.30, .30);
 }
