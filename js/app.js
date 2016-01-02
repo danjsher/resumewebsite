@@ -6,7 +6,7 @@ var main = function() {
         
         $('body').animate({top: '75px'}, 200);
 
-        $('.arrow-icon').rotate(270deg);
+        //$('.arrow-icon').rotate(270deg);
     });
 
 
