@@ -1,0 +1,50 @@
+html, body {
+    background-image: url('http://www.planwallpaper.com/static/images/Light-Wood-Background-Wallpaper.jpg');
+    font-family: "Montserrat", serif;
+    margin:0;
+    padding:0;
+    position: relative;
+}
+
+
+.menu-vertical {
+    background-color: #404040;
+    border-radius: 8px;
+    width: 230px;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+    text-align: center;
+}
+
+.menu-text {
+    position: relative;
+    background-color: #404040;
+    color: #ffffff;
+    width: 200px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: #666666;
+    display: block;
+}
+
+.item-menu-vert {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:block;
+}
+
+.item-menu-vert:hover {
+    background-color: #ff5050;
+    color: #ffffff;
+}

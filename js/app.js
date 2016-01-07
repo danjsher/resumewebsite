@@ -1,6 +1,6 @@
 var main = function() {
 
-    $('#arrow-down').click(function() {
+/*    $('#arrow-down').click(function() {
         
         $('.menu').animate({ top: '0px'}, 200);
         
@@ -18,7 +18,10 @@ var main = function() {
 	
 	$('#arrow-down').show();
 	$('#arrow-up').hide();
-     });
+     });*/
+
+//    $('.menu-item').removeClass('current');
+  //  $(this).addClass('current');
     
 };
 
