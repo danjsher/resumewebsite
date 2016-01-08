@@ -18,11 +18,19 @@ var main = function() {
 	
 	$('#arrow-down').show();
 	$('#arrow-up').hide();
-     });*/
+     });
 
-//    $('.menu-item').removeClass('current');
-  //  $(this).addClass('current');
+    $('.menu-item').removeClass('current');
+    $(this).addClass('current');
     
+    $('.card').mouseenter(function(){
+	$('#sharc-img, #sharc-img-blur').fadeToggle(500, function(){});
+	$('.btn').toggle();
+    }).mouseleave(function(){
+	$('#sharc-img, #sharc-img-blur').fadeToggle(500, function(){});
+	$('.btn').toggle();
+    });
+    */
 };
 
 $(document).ready(main);
