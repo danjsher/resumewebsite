@@ -6,12 +6,19 @@ html, body {
     position: relative;
 }
 
+.body-container {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
 .left-container {
     width: 230px;
     position: relative;
     text-align: center;
     display: block;
-    float: left;
+    margin-left: 70px;
 }
 
 .social-media-container {
@@ -52,7 +59,6 @@ html, body {
     display: block;
 }
 
-
 .divider {
     height: 1px;
     width: 100%;
@@ -79,25 +85,66 @@ html, body {
     background-color: #ff5050;
 }
 
-.resume-body {
-    position: absolute;
+
+.post {
     background-color: #404040;
     color: #ffffff;
-    width: 750px;
-    height: 1000px;
-    display: block;
-    margin-top: 30px;
-    margin-left: 260px;
-    margin-bottom: 30px;
     border-radius: 8px;
-    float: left;
-    padding: 20px 20px 20px 20px;
+    position: relative;
+    width: 600px;
+    height: 300px;
+    display: block;
+    top: 30px;
+    margin-left: 330px;
+}
 
- }
+.resume-section {
+    position: relative;
+    background-color: #404040;
+    color: #ffffff;
+    width: 600px;
+    margin-left: 330px;
+    top: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    display: block;
+}
 
-.body-container {
-    width: 65%;
-    margin: auto;
+div.title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+
+div.resume-section:hover{
+    background-color: #ff5050;    
+}
+
+.resume-section-description {
+    background-color: #404040;
+    width: 600px;
+    display: none;
+}
+
+a.download-btn {
+    position: relative;
+    background-color: #404040;
+    color: #ffffff;
+    border-radius: 8px;
+    top: 30px;
+    margin-left: 580px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+}
+
+a.download-btn:hover {
+    background-color: #ff5050;
 }
 
 .footer {

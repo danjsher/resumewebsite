@@ -1,0 +1,68 @@
+body, html {
+    //background-image: url('../images/RuffPlaster.jpg');
+    background-attachment: fixed;
+    font-family: "Montserrat", serif;
+    margin: 0;
+    top: 0;
+}
+
+.top-transparent {
+    height: 500px;
+    width: 100%;
+}
+
+.bottom-opaque {
+    background-color: #404040;
+    color: #ffffff;
+    height: 1500px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.menu-bar {
+    background-color: #404040;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #cccccc;
+    z-index: 1;
+}
+
+div.menu-bar .menu-btn {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 15px 16px 15px;
+    float: left;
+}
+
+div.menu-bar .menu-btn:hover {
+    background-color: #ff5050;
+}
+
+.profile {
+    position: relative;
+    float: left;
+}
+
+.blurb {
+    position: relative;
+    float: left;
+    display: block;
+    left: 20px;
+}
+
+.profile-pic {
+    display: block;
+    float: left;
+}
+
+.social-media-icon {
+    position: relative;
+    text-decoration: none;
+    top: 13px;
+    float: right;
+    padding: 0px 7px 0px 7px;
+ }

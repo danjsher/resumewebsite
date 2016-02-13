@@ -1,5 +1,7 @@
 var main = function() {
-
+    $('.resume-section').click(function(){
+	$(this).children().toggle();
+    });
 /*    $('#arrow-down').click(function() {
         
         $('.menu').animate({ top: '0px'}, 200);

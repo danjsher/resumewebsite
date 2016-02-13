@@ -1,42 +1,138 @@
-<!DOCTYPE html>
+<!DOCTTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
-  <link type="css/text" rel="stylesheet" href="css/stylesheet-2.css"/>
-</head>
-
-<body>
-  <div class="body-container">
-    <div class="left-container">
-      <div class="menu-vertical">
-	<img src="images/me.jpg" height="230px" width="230px" style="background-color:#ffffff; display: block; border-radius: 8px 8px 0px 0px;"/>
-	
-	<div class="menu-text">
-	  <h3>Hello.</h3>
-	  <p style="padding-left: 10px;">I'm Dan Sheridan, a computer systems engineering student with a passion for building things in software and hardware.</p>
-	</div>
-	<div class="divider"></div>
-	<a class="item-menu-vert" href="index.html">home</a>
-	<div class="divider"></div>
-	<a class="item-menu-vert item-menu-bottom" href="resume.html">resume</a>
-      </div>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet-4.css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.foggy.min.js"></script>
+    <script type="text/javascript" language="javascript">
+      $(document).ready(function(){
+      $('.resume-body').foggy();
+      });
+    </script>
+  </head>
+  <body>
+    <div class="resume-heading">
+	Dan Sheridan
+      <p style="position: relative; left: 20px; top: -20px; font-size: 20px;">
+	A dedicated and determined student with a proven track record in software development.
+      </p>
+    </div>
+    <table class="the-meat">
+      <tr>
+	<td>
+	  <div class="left-col">	   
+	  </div>
+	</td>
+	<td>
+	  <div class="resume-body">
+	    <span>Education</span>
+	    <div class="section-item">
+	      <strong>University of Massachusetts - Amherst</strong>
+	      <ul>
+		<li>
+		  Candidate for Bachelor of Science in Computer Systems Engineering, Spring 2016
+		</li>
+		<li>
+		  Pursuing minor in Computer Science
+		</li>	
+		<li>
+		  Overall GPA: 3.83
+		</li>
+	      </ul>
+	    </div>
+	    <span>Experience</span>
+	    <div class="section-item">
+	      <strong>Amazon</strong>, Software Development Engineer, May - August 2016
+	      <ul>
+		<li>
+		  Designed and implemented commmunication library to allow AWS services to interface with a third party piece of software
+		</li>
+		<li>
+		  Communicated with different team members locally and remotely to complete tasks
+		</li>
+		<li>
+		  Participated in sprints in an agile development model
+		</li>
+	      </ul>
+	    </div>
+	    <div class="section-item">
+	      <strong>Advanced Micro Devices</strong>, Co-op Engineer, May 2015 - August 2015
+	      <ul>
+		<li>
+		  Worked on HBM PHY implementation team
+		</li>
+		<li>
+		  Oversaw floorplan generation for early stages of the project
+		</li>
+		<li>
+		  Wrote scripts in Perl to help gather statistics on certain aspects of the chip to help meet design goals
+		</li>
+	      </ul>
+	    </div>
+	    <span>Projects</span>
+	    <div class="section-item">
+	      <strong>SHARC (Simulated Human Arm - Remote Controlled)</strong>, September 2015 - Present
+	      <ul>
+		<li>
+		  Collaborating with a team of three other students to create a sleeve to track a users arm movement and translate that data into commands for a remotely located robot arm
+		</li>
+		<li>
+		  Responsibilities include software development, interfacing with multiple sensors, and designing algorithms to translate sensor data into arm movements
+		</li>
+		<li>
+		  To date we have met or exceeded all deadlines we have set
+		</li>
+		<li>
+		  More details can be found on our team website <a href="http://www.ecs.umass.edu/ece/sdp/sdp16/team06/index.html">here</a>
+		</li>
+	      </ul>
+	    </div>
+	    <div class="section-item">
+	      <strong>Hearts</strong>, Fall 2015
+	      <ul>
+		<li>
+		  Created a distributed, multiplayer implementation of the card game Hearts in C++
+		</li>
+		<li>
+		  Employed the use of XML-RPC to provide communication between game server and client GUI
+		</li>
+		<li>
+		  Set up a SQLite database to maintain the state of a game and to provide save and load functionality
+		</li>
+	      </ul>
+	    </div>
+	    <span>Skills</span>
+	    <ul>
+	      <li>
+		Programming & Scripting: C/C++, Java, Python, Perl, SQL, HTML, CSS, Javascript
+	      </li>
+	      <li>
+		Operating Systems: Windows, Linux, Mac OSX
+	      </li>
+	    </ul>
+	  </div>
+	</td>
+	<td>
+	  <div class="right-col">
+	  </div>
+	</td>
+      </tr>
+    </table>
+    <div class="footer">
       
-      <div class="social-media-container">
-	<a class="social-media-icon" href="https://github.com/danjsher">
-	  <img src="images/lg_icon_kit/flat-min-cirlces/32x32-png/github.png"/>
-	</a>
-	<a class="social-media-icon" href="https://www.facebook.com/daniel.sheridan">
-	  <img src="images/lg_icon_kit/flat-min-cirlces/32x32-png/facebook.png"/>
-	</a>
-	<a class="social-media-icon" href="https://www.linkedin.com/in/daniel-sheridan-75137389">
+      <a class="social-media-icon linkedin" href="https://www.linkedin.com/in/daniel-sheridan-75137389">
 	<img src="images/lg_icon_kit/flat-min-cirlces/32x32-png/linkedin.png"/>
-	</a>
-      </div>
+      </a>
+      
+      <a class="social-media-icon" href="https://github.com/danjsher">
+	<img src="images/lg_icon_kit/flat-min-cirlces/32x32-png/github.png"/>
+      </a>
+      
+      <a class="social-media-icon" href="https://www.facebook.com/daniel.sheridan">
+	<img src="images/lg_icon_kit/flat-min-cirlces/32x32-png/facebook.png"/>
+      </a>
+
     </div>
-    <div class="post">
-    </div>
-  </div>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="js/app.js"></script>
-</body>
+  </body>
 </html>
